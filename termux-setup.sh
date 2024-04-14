@@ -195,16 +195,16 @@ sleep 1
 printf "\e[92m[\e[0m\e[77m✔\e[0m\e[92m]\e[0m\e[92m gdu \e[0mis already at the latest version\e[94m 1.21.4-1 \e[0m\n"
 sleep 1
 printf "\e[92m[\e[0m\e[77m✔\e[0m\e[92m]\e[0m\e[92m elvish \e[0mis already at the latest version\e[94m 0.20.1\e[0m\n"
-sleep 1
+sleep 4
 echo -e " "
-sleep 1
+sleep 0.3
 echo -e " "
-sleep 1
+sleep 0.3
 echo -e " "
 sleep 4
 echo -e "\e[92m[\e[0m*\e[92m]\e[93m Join us on github! \e[93m[\e[92m>_<\e[93m] ";
 echo -e " "
-clear
+sleep 2
 Link
 exit
 }
