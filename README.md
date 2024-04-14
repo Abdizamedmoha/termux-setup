@@ -3,7 +3,7 @@
 
 ---
 <p align="center">
-  <img src="images/Tool.jpg" alt=""/>
+  <img src="images/Team.jpg" alt=""/>
 </p> <br>
 <p align="center">
   <img src="images/T.set.jpg" alt=""/>
@@ -45,6 +45,33 @@
  Storage usage `1GB+`<br>
  
  ---
+
+ <h5><p align="center">Termux</p></h3>
+
+```
+git clone https://github.com/Abdizamedmoha/termux-setup.git
+```
+
+```
+cd termux-setup 
+```
+
+```
+chmod +x *
+```
+
+```
+bash setup.sh
+```
+
+
+<h4>Before the setup </h4>
+
+```
+bash termux-setup.sh
+```
+
+---
  <h3><p align="center">SOME PACKAGES</p></h3> 
 
 <b>gotop</b><br> <p align="center">
@@ -74,32 +101,6 @@
 </p> <br>
  
  ---
-<h5><p align="center">Termux</p></h3>
-
-```
-git clone https://github.com/Abdizamedmoha/termux-setup.git
-```
-
-```
-cd termux-setup 
-```
-
-```
-chmod +x *
-```
-
-```
-bash setup.sh
-```
-
-
-<h4>Before the setup </h4>
-
-```
-bash termux-setup.sh
-```
-
----
 <p align="center">
   <img src="images/Teamlogo.jpg" alt=""/>
 </p> <br>
