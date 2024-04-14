@@ -1,10 +1,10 @@
 ## Termux Setup Packages 
 
-
----
 <p align="center">
   <img src="images/Tool.jpg" alt=""/>
 </p>
+
+---
 <p align="center">
   <img src="images/T.set.jpg" alt=""/>
 </p>
