@@ -118,7 +118,7 @@ bash termux-setup.sh
  
 As a dedicated member of the Somalian 🇸🇴 <b>Ed-SomTech </b>Team, we specialize in creating innovative tools for enhancing security and knowledge in the realms of information technology. Our repertoire includes exceptional tools for purposes such as phishing, brute force, and hacking, designed specifically for platforms like `Termux` and `Linux`We strive to empower individuals with cutting-edge solutions, enabling them to explore and understand the intricacies of `cybersecurity`.
 
-<h3><p align="center">Issues</p></h3>
+<h2><p align="center">Issues</p></h2>
 
 <p align="center">
   <img src="images/issues.gif" alt=""/>
