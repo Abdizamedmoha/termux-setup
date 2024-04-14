@@ -65,7 +65,7 @@ bash setup.sh
 ```
 
 
-<h4>Before the setup </h4>
+<h4>After the setup </h4>
 
 ```
 bash termux-setup.sh
