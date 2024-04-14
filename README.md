@@ -41,8 +41,8 @@
 ---
 <h3><p align="center">REQUIREMENTS</p></h3>
 
- ●Network usage `500MB+`<br>
- ●Storage usage `1GB+`<br>
+ ●Network usage `2GB+`<br>
+ ●Storage usage `3GB+`<br>
  
  ---
 <h3><p align="center">Tested On</p></h3>
