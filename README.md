@@ -1,4 +1,4 @@
-## Termux Setup Packages 
+### Termux Setup Packages 
 
 <p align="center">
   <img src="images/Tool.jpg" alt=""/>
