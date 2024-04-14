@@ -33,7 +33,7 @@
 
 ---
 
-<h3><p align="center">AFTER YOU INSTALL IT </p></h3><br>
+<h3><p align="center">About This Tool</p></h3><br>
 
 >Once you have successfully installed this tool, you will have access to all the essential packages and languages in Termux. This tool is absolutely perfect for you.
 
