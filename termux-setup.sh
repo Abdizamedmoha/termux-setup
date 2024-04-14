@@ -160,8 +160,7 @@ sleep 4
 echo -e "\e[92m[\e[0m*\e[92m]\e[93m Join us on github! \e[93m[\e[92m>_<\e[93m] ";
 echo -e " "
 clear
-cd $HOME/termux-setup/images
-bash non.sh
+Link
 exit
 }
 devchk(){
@@ -225,10 +224,11 @@ menu
 }
 Link() {
 #my github account at least give stars
+clear
 am start -a android.intent.action.VIEW -d https://github.com/Abdizamedmoha/
 clear
-cd $HOME/termux-setup
-bash termux-setup.sh 
+menu
+exit
 }
 banner(){
 #Header Termux-setup 
@@ -337,6 +337,7 @@ elif [[ $option == 8 || $option == 08 ]]; then
 more
 elif [[ $option == 9 || $option == 09 ]]; then
 cd $HOME/termux-setup
+ls
 echo 
 else 
 printf "\e[1;93m [>!<] Please enter number between 1-5!\e[0m\n"
@@ -496,40 +497,6 @@ echo
 printf "\e[1;93m [>!<] Please enter number 1 to continue \e[0m\n"
 sleep 3
 warn
-fi
-exit
-}
-menu1(){
-printf "\e[1;92m[\e[0m\e[1;77m1\e[0m\e[1;92m]\e[0m\e[1;93m CHAT NOW\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m2\e[0m\e[1;92m]\e[0m\e[1;93m MY GITHUB\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m3\e[0m\e[1;92m]\e[0m\e[1;93m TELEGRAM \e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m4\e[0m\e[1;92m]\e[0m\e[1;93m MORE TOOLS \e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m5\e[0m\e[1;92m]\e[0m\e[1;93m BACK\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m6\e[0m\e[1;92m]\e[0m\e[1;93m Exit\e[0m\n"
- 
-read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] CHOOSE: \e[0m' option
-if [[ $option == 1 || $option == 01 ]]; then
-am start -a android.intent.action.VIEW -d https://wa.me/+252906859577
-menu1
-elif [[ $option == 2 || $option == 02 ]]; then
-am start -a android.intent.action.VIEW -d https://github.com/Abdizamedmoha
-menu1
-elif [[ $option == 3 || $option == 03 ]]; then
-am start -a android.intent.action.VIEW -d https://t.me/ABDIZAMED_MOHAMED
-menu1
-elif [[ $option == 4 || $option == 04 ]]; then
-am start -a android.intent.action.VIEW -d https://github.com/Abdizamedmoha
-menu1
-elif [[ $option == 5 || $option == 05 ]]; then
-mene1
-elif [[ $option == 6 || $option == 06 ]]; then
-cd $HOME/termux-setup
-else
-echo
-printf "\e[93m [>!<] Please enter number between 1-6!\e[0m\n"
-sleep 2
-menu1
-echo
 fi
 exit
 }
