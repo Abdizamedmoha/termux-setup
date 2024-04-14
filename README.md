@@ -49,6 +49,15 @@
  <h5><p align="center">Termux</p></h3>
 
 ```
+apt update 
+```
+```
+apt upgrade 
+```
+```
+apt install git
+```
+```
 git clone https://github.com/Abdizamedmoha/termux-setup.git
 ```
 
@@ -59,7 +68,6 @@ cd termux-setup
 ```
 chmod +x *
 ```
-
 ```
 bash setup.sh
 ```
