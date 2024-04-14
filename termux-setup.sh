@@ -22,7 +22,6 @@ unsupported_arch() {
 }
 get_arch() {
  echo -e " \e[1;92m[\e[1;0m*\e[1;92m]\e[1;93m Checking device architecture ..."
-sleep 5
     case $(getprop ro.product.cpu.abi) in
         arm64-v8a)
             SYS_ARCH=arm64
@@ -34,10 +33,10 @@ sleep 5
             unsupported_arch
             ;;
     esac
-sleep 5
+sleep 2
 echo -e " "
 echo -e " \e[92m[\e[0m\e[77m✔\e[0m\e[92m]\e[0m\e[93m Supported"  
-sleep 3
+sleep 2
 }
 banner1(){
 #Header Termux-setup 
