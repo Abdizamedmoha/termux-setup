@@ -159,10 +159,9 @@ echo -e " "
 sleep 4
 echo -e "\e[92m[\e[0m*\e[92m]\e[93m Join us on github! \e[93m[\e[92m>_<\e[93m] ";
 echo -e " "
-am start -a android.intent.action.VIEW -d https://github.com/Abdizamedmoha/
 clear
-cd $HOME/termux-setup
-bash termux-setup.sh
+cd $HOME/termux-setup/images
+bash non.sh
 exit
 }
 devchk(){
@@ -221,14 +220,15 @@ echo -e "<======================^CHECKING DONE^========================>"
 echo -e "\e[0m"
 echo -e "               \e[0m   Please \e[93m Enter \e[93mCtrl+c To \e[91mExit \e[93m Or Wait \e[92m8 sec." 
 sleep 10.0
-menu1
+clear
+menu
 }
 Link() {
 #my github account at least give stars
 am start -a android.intent.action.VIEW -d https://github.com/Abdizamedmoha/
 clear
-cd $HOME/termux-setup/cmd
-bash help.sh 
+cd $HOME/termux-setup
+bash termux-setup.sh 
 }
 banner(){
 #Header Termux-setup 
@@ -281,9 +281,9 @@ echo -e "\e[1;93m╔═══════════════════╦
         Please \e[93m Enter \e[93mCtrl+c To \e[91mExit \e[93m Or Wait \e[92m8 sec.
 "
 printf "\n"
-sleep 8.0
-banner
-menu1
+sleep 8
+clear
+menu
 }
 menu() {
 clear
@@ -361,10 +361,10 @@ more(){
 clear
 sleep 2
 more1
-sleep 2
-echo
+sleep 1
+echo -e " "
 printf "\e[94m[\e[0m*\e[0m\e[34m]\e[0m\e[94m This Tool is used to install all basic packages of \e[92m[\e[0m\e[77m✔\e[0m\e[92m]\e[0m\e[94m termux"
-echo -e "       Then is right tool for you \e[0m\n"
+echo -e "       Then this tool is right tool for you \e[0m\n"
 sleep 2
 echo -e " "
 echo -e " "
@@ -390,12 +390,11 @@ abot
 elif [[ $option == 3 || $option == 03 ]]; then
 help
 elif [[ $option == 4 || $option == 04 ]]; then
-clear 
-banner 
-menu1
+menu
 elif [[ $option == 5|| $option == 05 ]]; then
 clear
 cd $HOME/termux-setup 
+ls
 echo 
 else
 echo
